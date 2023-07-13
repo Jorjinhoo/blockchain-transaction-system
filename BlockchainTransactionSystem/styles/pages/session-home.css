@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+:root{
+  --index: calc(1vh + 1vw);
+}
+
+main{
+  background-color: #efecfb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info{
+  height: 40vh;
+  width: 100%;
+}
+
+#IF1{
+  display: flex;
+  flex-direction: column;
+  margin: 18px;
+  border-radius: 18px;
+  height: 14vh;
+  min-height: 85px;
+  width: 80vw;
+  min-width: 400px;
+  background-color: #5841d8;
+  color: white;
+}
+
+#IF1 h1{
+  margin: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#IF1 p{
+  margin-left: 20px;
+  font-size: calc(var(--index)*0.9);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#IF2{
+  background-color: lightblue;
+  height: 40vh;
+  min-height: 230px;
+  width: 80vw;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+  color: black;
+  border-radius: 18px;
+}
+
+#IF2 p1{
+  margin: 30px 20px;
+  font-size: calc(var(--index)*1.2);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#IF2 p2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#IF2 p3{
+  margin: 0 20px;
+  font-size: calc(var(--index)*1.2);
+}
+
+#IF2 h2{
+  margin: 5px 20px;
+  font-size: calc(var(--index)*2);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Pannel{
+  display: flex;
+  margin: 30px 40px;
+}
+
+#SandbBTN{
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  padding: 5px 10px;
+  background-color: #5841d8;
+  color: white;
+  border-radius: 15px;
+  font-family: "Gill Sans", sans-serif;
+}
+
+#SandbBTN:hover{
+  opacity: .5;
+  border: 3px solid white;
+}
+
+#HistoryBTN{
+  display: flex;
+  justify-content: center;
+  padding: 5px 10px;
+  border: 3px solid #5841d8;
+  border-radius: 15px;
+  background-color: rgb(222, 238, 243);
+  color: #5841d8;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+#HistoryBTN:hover{
+  border: 3px solid white;
+  background-color: #5841d8;
+  color: white;
+  opacity: .6;
+}

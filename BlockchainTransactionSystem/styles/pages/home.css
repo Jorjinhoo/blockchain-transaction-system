@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+:root{
+  --index: calc(1vh + 1vw);
+}
+
+main{
+  background-color: #efecfb;
+  display: flex;
+  flex-direction: column;
+}
+
+.info{
+  height: 40vh;
+  width: 100%;
+}
+
+.blue-text{
+  color: blue;
+}
+
+#IF1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+}
+
+#MainParagraph{
+  width: 70%;
+  font-size: calc(var(--index)*1.1);
+  margin-top: 70px;
+  font-family: "Gill Sans", sans-serif;
+  line-height: 1;
+}
+#MainText{
+  width: 70%;
+  font-size: calc(var(--index)*0.9);
+  font-weight: 600;
+  opacity: 0.4;
+  font-family: cursive;
+}
+
+#RegBonus{
+  width: 70%;
+  display: flex;
+  margin-top: 70px;
+  align-items: center;
+}
+
+#RegBonus p{
+  margin-right: 30px;
+  font-size: calc(var(--index)*1.4);
+  font-weight: 400;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(22, 150, 22);
+}
+
+#RegBonus p2{
+  font-weight: 900;
+  font-size: calc(var(--index)*1.6);
+}
+
+.reg-button{
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+  transition: 0.4s;
+  padding: 5px 20px;
+  font-weight: 500;
+  min-width: 60px;
+  transition: 0.3s;
+  cursor: pointer;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.reg-button:hover{
+  opacity: 0.5;
+}
+
+#IF2{
+  background-color: #30234a;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+
+}
+
+#OfferTitle{
+  margin-top: 65px;
+  font-size: calc(var(--index)*1.7);
+  font-weight: 600;
+}
+
+#BenefitsItems{
+  display: flex;
+}
+
+.benefit-item{
+  width: 100px;
+  margin: 100px 7vw;
+  text-align: center;
+}
+
+.benefit-item img{
+  width: 70px;
+}
+
+.benefit-item p{
+  margin-top: 10px;
+  width: 110px;
+}
+
+#MakeTransferButton{
+  color: blue;
+  background-color: white;
+  border-radius: 20px;
+  padding: 11px 20px;
+  font-weight: 500;
+  font-family: "Gill Sans", sans-serif;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#MakeTransferButton:hover{
+  opacity: .5;
+}
+
+#IF3{
+  background-color: white;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+}
+
+.if3-item{
+  width: 380px;
+}
+
+#If3ItemText{
+  margin: 0 100px 0 25vw;
+}
+
+#If3ItemText h2{
+  margin-bottom: 10px;
+  font-size: calc(var(--index)*1.4);
+  font-weight: 900;
+  color: blue;
+}
+
+#If3ItemText p{
+  margin-bottom: 20px;
+  font-size: calc(var(--index)*1.1);
+  font-weight: 400;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#If3ItemText p2{
+  font-weight: 900;
+}
+
+#If3Button{
+  width: 80px;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+  transition: 0.4s;
+  padding: 5px 20px;
+  font-weight: 500;
+  transition: 0.3s;
+  cursor: pointer;
+  font-family: "Gill Sans", sans-serif;
+}
+
+#If3Button:hover{
+  opacity: .5;
+}

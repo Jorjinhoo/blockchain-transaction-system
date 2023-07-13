@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+#AcLogo{
+  width: 40px;
+  margin-right: 40px;
+}
+
+#AcLogo img{
+  width: 35px;
+}
+
+main{
+  display: block;
+  justify-content: center;
+}
+
+.transaction-block{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 550px;
+  height: 200px;
+  margin-top: 30px;
+  padding-left: 13px;
+  border: 3px solid blue;
+  border-radius: 10px;
+}

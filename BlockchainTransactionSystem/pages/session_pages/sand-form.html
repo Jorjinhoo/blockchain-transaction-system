@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SendTransaction</title>
+  <link rel="stylesheet" type="text/css" href="/styles/pages/sand-form.css">
+  <link rel="stylesheet" type="text/css" href="/styles/pages_elements/menu.css">
+  <link rel="stylesheet" type="text/css" href="/styles/pages_elements/footer.css">
+</head>
+
+<body>
+
+  <header class="head">
+    <div class="logo">Systém</div>
+    <div class="header-menu">
+      <div id="AcLogo"><a href="/pages/session_pages/session-home.html"><img src="/logos/account.png" alt="account"></a></div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div id="IF1" class="info">
+      <p1>Total balance</p1>
+      <h2><p2 id="Balance">000</p2> SÈM</h2>
+    </div>
+    <form  class="main-form" action="/" method="post">
+        <h2 class="form-title">Data input</h2>
+        <div class="form-group">
+          <input type="text" maxlength="10" minlength="10" id="recipient" class="form-input" name="recipient" placeholder=" ">
+          <label for="name" class="form-label">Recipient</label>
+        </div>
+        <div class="form-group">
+          <input type="number" step="0.001" id="amount" class="form-input" name="amount" placeholder=" ">
+          <label for="name" class="form-label">Amount</label>
+        </div>
+        <input type="submit" class="form-button" value="send">
+    </form>
+    <div id="IF2" class="info">
+        <p1>How to sand?</p1>
+        <h3>To send your assets:</h3>
+        <ul>
+          <li>Please enter the amount to send, starting from 0.001 SÈM, available in your account</li>
+          <li>Please enter the correct recipient's SÈM wallet number</li>
+          <li>Press the "Send" button</li>
+          <li>Please wait while your transaction is being processed (up to 1 minute)</li>
+        </ul>
+    </div>
+  </main>
+
+  <footer>
+    <div id="FooterLogo">
+      <a href="https://www.instagram.com"><img src="/logos/footer/instagram.png" alt=""></a>
+      <a href="https://www.Facebook.com"><img src="/logos/footer/facebook.png" alt=""></a>
+      <a href="https://www.Twitter.com"><img src="/logos/footer/twitter.png" alt=""></a>
+    </div>
+    <div id="Copyright">
+      Copyright © 2023 Systém (O.Sokolov). All Rights Reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
