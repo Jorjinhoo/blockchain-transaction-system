@@ -6,10 +6,9 @@ To check the operation of the system, you can create your own accounts or use ex
 Name: me                                                       
 Email: me                           
 Password: me                        
-WalletNumber: 7bb6f33484   
+WalletNumber: 7bb6f33484 
 
-
-Name: to 
-Email: to
-Password: to
+Name: to                                                       
+Email: to                           
+Password: to                        
 WalletNumber: 27f96c4f93
