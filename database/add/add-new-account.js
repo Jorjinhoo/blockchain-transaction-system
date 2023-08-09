@@ -1,4 +1,4 @@
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const { randomBytes } = require('crypto');
 
 const AccauntsModel = require('../models/accounts-model.js');
