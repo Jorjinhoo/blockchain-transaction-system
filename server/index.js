@@ -4,8 +4,8 @@ const mongoose = require('mongoose');
 const homePage = require('../not_session_scripts/home.js');
 
 const app = express();
-const port = 5500;
-const db = 'mongodb+srv://Admin:Admin123@Accounts.ashibkj.mongodb.net/AccountsData?retryWrites=true&w=majority';
+const port = process.env.PORT || 5500;
+const db = process.env.DATABASE_URL || 'mongodb+srv://Admin:Admin123@Accounts.ashibkj.mongodb.net/AccountsData?retryWrites=true&w=majority';
 
 
 //server running
