@@ -13,8 +13,14 @@ footer{
 }
 
 #Copyright{
-  width: 400px;
   height: 20px;
   margin-top: 30px;
   font-weight: 500;
+}
+
+
+@media screen and (max-width: 700px) {
+  #Copyright{
+    font-size: 10px;
+  }
 }

@@ -89,10 +89,10 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70px;
   padding: 5px 10px;
   background-color: #5841d8;
   color: white;
+  border: 3px solid #5841d8;
   border-radius: 15px;
   font-family: "Gill Sans", sans-serif;
 }
@@ -105,6 +105,7 @@ main{
 #HistoryBTN{
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 5px 10px;
   border: 3px solid #5841d8;
   border-radius: 15px;
@@ -120,4 +121,40 @@ main{
   background-color: #5841d8;
   color: white;
   opacity: .6;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  #IF1{
+    min-width: 200px;
+  }
+  
+  #IF1 h1{
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  
+  #IF2{
+    background-color: lightblue;
+    height: 30vh;
+    min-width: 200px;
+  }
+
+  #Pannel{
+    margin: 27px 20px;
+  }
+  
+  #SandbBTN{
+    padding: 3px 5px;
+    height: 20px;
+    margin-right: 18px;
+    font-size: 14px;
+  }
+
+  #HistoryBTN{
+    padding: 3px 5px;
+    height: 20px;
+    font-size: 12px;
+  }
 }

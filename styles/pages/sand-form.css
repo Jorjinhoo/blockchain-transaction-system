@@ -127,3 +127,15 @@ main{
 footer{
   margin-top: 100px;
 }
+
+
+@media screen and (max-width: 500px) {
+  #AcLogo{
+    margin-right: 20px;
+  }
+
+  .main-form{
+    width: 200px;
+  }
+  
+}

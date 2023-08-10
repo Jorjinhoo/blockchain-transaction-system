@@ -16,7 +16,7 @@ main{
 }
 
 .info{
-  height: 40vh;
+  height: 80vh;
   width: 100%;
 }
 
@@ -28,7 +28,6 @@ main{
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 80vh;
 }
 
 #MainParagraph{
@@ -85,7 +84,6 @@ main{
 
 #IF2{
   background-color: #30234a;
-  height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -106,7 +104,8 @@ main{
 .benefit-item{
   width: 100px;
   margin: 100px 7vw;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .benefit-item img{
@@ -136,7 +135,6 @@ main{
 #IF3{
   background-color: white;
   display: flex;
-  height: 90vh;
   align-items: center;
 }
 
@@ -181,4 +179,78 @@ main{
 
 #If3Button:hover{
   opacity: .5;
+}
+
+
+
+@media screen and (max-width: 1040px) {
+  #If3IMG {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .info{
+    height: 45vh;
+  }
+
+  #MainParagraph{
+    margin-top: 50px;
+  }
+
+  #RegBonus{
+    margin-top: 30px;
+  }
+
+  #RegBonus p{
+    font-size: calc(var(--index)*1.2);
+  }
+
+  #RegBonus p2{
+    font-size: calc(var(--index)*1.3);
+  }
+  
+  #OfferTitle{
+    margin-top: 30px;
+    font-size: calc(var(--index)*1.4);
+  }
+  
+  .benefit-item{
+    width: 80px;
+    margin: 60px 7vw;
+  }
+
+  .benefit-item img{
+    width: 40px;
+  }
+
+  #If3IMG {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .info {
+    height: 50vh;
+  }
+  
+  .benefit-item{
+    width: 75px;
+    margin: 40px 4vw;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .benefit-item p{
+    width: 75px;
+    font-size: 14px;
+  }
+
+  #If3ItemText {
+    margin: 0 10px;
+  }
+
+  #If3IMG {
+    width: 100px;
+  }
 }
