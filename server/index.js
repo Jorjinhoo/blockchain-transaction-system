@@ -5,8 +5,8 @@ const homePage = require('../not_session_scripts/home.js');
 
 const app = express();
 const port = process.env.PORT || 5500;
-const db = process.env.DATABASE_URL || 'mongodb+srv://Admin:Admin123@Accounts.ashibkj.mongodb.net/AccountsData?retryWrites=true&w=majority';
-
+const db = process.env.DATABASE_URL || 'mongodb+srv://Admin:Admin123@accountsdata.ashibkj.mongodb.net/?retryWrites=true&w=majority&appName=AccountsData';
+//const db = process.env.DATABASE_URL || 'mongodb+srv://Admin:Admin123@Accounts.ashibkj.mongodb.net/AccountsData?retryWrites=true&w=majority';
 
 //server running
 app.listen(port, () => {
